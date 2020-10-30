@@ -1,3 +1,4 @@
+<img alt="GoStack" src=".github/gostack.png" />
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -30,14 +31,14 @@ Projeto rodando na porta 3333 e recebe e retorna JSON.
 
 ## 👩🏿‍💻 Rotas
 
-- POST /projects: A rota deve receber title, e owner dentro do corpo da requisição. 
+- `**POST /projects`**: A rota deve receber title, e owner dentro do corpo da requisição. 
 Formato { title: 'Desafio Node.js', owner: 'João Mangueira' }. É possível usar um filtro para title passando o parâmetro "?title=Reacet".
 
-- GET /projects: Rota que lista todos os projetos;
+- `**GET /projects`**: Rota que lista todos os projetos;
 
-- PUT /projects/:id: Rota que altera um projeto usando o ID;
+- `**PUT /projects/:id`**: Rota que altera um projeto usando o ID;
 
-- DELETE /projects/:id: Rota que exclui um projeto usando o ID;
+- `**DELETE /projects/:id`**: Rota que exclui um projeto usando o ID;
 
 ## 🚀 Como Rodar
 
